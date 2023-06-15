@@ -4,8 +4,8 @@ import { auth, provider } from './firebase';
 
 function SignIn() {
     function signInWithGoogle(){
-        // console.log("123");
-        signInWithPopup(auth,provider);
+        console.log("123");
+        // signInWithPopup(auth,provider);
     }
   return (
     <div>
